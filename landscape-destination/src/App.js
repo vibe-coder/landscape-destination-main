@@ -6,8 +6,6 @@ function App() {
   return (
     <div className="App">
       <Header className="header"/>
-      <Background className="background"/>
-      
     </div>
   );
 }
