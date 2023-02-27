@@ -12,8 +12,9 @@ function Body(){
       </div>
 
       <div className="hero-wrapper">
-        <h1 className="hero-text">INDONESIA</h1>
-        <p className="hero-text">Anim sit qui occaecat excepteur Lorem nostrud nostrud veniam. Proident enim duis duis pariatur ut dolore laboris. Fugiat proident voluptate occaecat aliqua duis ad deserunt ipsum enim. Incididunt adipisicing ea aute tempor sint adipisicing ipsum magna mollit. Consectetur labore tempor id eu ex laboris dolor excepteur. Incididunt sit veniam cillum nostrud veniam dolore eu minim ex.</p>
+        <h1 className="hero-header">INDONESIA</h1>
+        <p className="hero-paragraph">Anim sit qui occaecat excepteur Lorem nostrud nostrud veniam. Proident enim duis duis pariatur ut dolore laboris. Fugiat proident voluptate occaecat aliqua duis ad deserunt ipsum enim.  </p>
+        <a href="www.youtube.com" className="hero-button"> Explore <span className="arrow">&#10095;</span></a>
       </div>
     </div>
   )
