@@ -1,14 +1,12 @@
 import './App.css';
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
+import Background from './Background';
+import HeroSection from './HeroSection';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body />
-      <Footer/>
+      <HeroSection/>
+      <Background/>
     </div>
   );
 }

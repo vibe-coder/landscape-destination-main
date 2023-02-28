@@ -263,3 +263,12 @@ opacity: 0.3;
 .arrow-button-2:hover{
   opacity: 0.2;
 }
+
+.bg-image{
+  width: 100%;
+  height: 789;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  z-index: 1;
+}
