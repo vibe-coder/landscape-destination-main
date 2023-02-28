@@ -141,6 +141,35 @@
 
 .footer-wrapper{
   display: flex;
-  background-color: red;
   height: 272px;
+  padding: 0 30px;
+}
+
+.social-wrapper{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  padding-top: 220px;
+}
+
+.social-icon{
+  height: 22px;
+  padding: 0 7px;
+}
+
+.social-line{
+  background-color: white;
+  height: 1.1px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  color: transparent;
+}
+
+.popular-destination{
+  background-color: black;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
