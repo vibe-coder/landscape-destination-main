@@ -152,14 +152,27 @@
   padding-top: 220px;
 }
 
+.social-wrapper-2{
+  height: 30px;
+  display: flex;
+  align-items: end;
+}
+
 .social-icon{
   height: 22px;
   padding: 0 7px;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+.social-icon:hover{
+  margin-bottom: 4px;
 }
 
 .social-line{
+  margin-top: 4PX;
   background-color: white;
-  height: 1.1px;
+  height: 1.3px;
   width: 160px;
   display: flex;
   align-items: center;
@@ -167,9 +180,86 @@
 }
 
 .popular-destination{
-  background-color: black;
   flex: 50%;
   display: flex;
   flex-direction: column;
   align-items: end;
+}
+
+.popular-line>h3{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  padding-left: 3px;
+}
+
+.popular-line>div{
+  background-color: white;
+  height: 1.3px;
+  margin: 3px;
+  width: 220px;
+  color: transparent;
+}
+
+.location{
+  height: 160px;
+  display: flex;
+  align-items: end;
+}
+
+.location-image{
+  margin-top: 24px;
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  margin-left: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.location-image:hover{
+  margin-bottom: 10px;
+}
+
+.arrow-button{
+  margin-top: 20px;
+}
+
+
+.arrow-wrapper{
+width: 465px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.arrow-button-1{
+  padding: 0 5px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  transition: 0.1s;
+}
+
+.arrow-button-1:hover{
+opacity: 0.3;
+}
+
+
+.arrow-button-2{
+  padding: 0 5px;
+  transform: rotate(90deg);
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  transition: 0.1s;
+}
+
+.arrow-button-2:hover{
+  opacity: 0.2;
 }
