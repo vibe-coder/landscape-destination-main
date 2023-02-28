@@ -4,6 +4,14 @@
   min-height: 100vh;
 }
 
+.hero-section{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  color: white;
+  min-height: 100vh;
+}
+
 /* Header Styling */
 
 .header-wrapper{
@@ -13,6 +21,7 @@
   padding: 0 30px;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .link-wrapper{
@@ -266,9 +275,8 @@ opacity: 0.3;
 
 .bg-image{
   width: 100%;
-  height: 789;
+  height: 788px;
   object-fit: cover;
   object-position: center;
-  position: relative;
   z-index: 1;
 }
